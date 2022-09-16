@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(./assets/bg.png);
+    background-image: url(./assets/bg.jpg);
     background-position: top center;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -17,14 +17,37 @@ body * {
     line-height: 160%;
 }
 
+header {
+    margin-top: 32px;
+    height: 120px;
+}
+
+header div {
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    margin: auto;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    padding: 4px;
+    transition: transform 0.3s ease;
+}
+
+header div:hover {
+    transform: scale(1.1);
+}
+
+header img {
+    width: 100%;
+    border-radius: 50%;
+}
+
 main {
     max-width: 580px;
     width: 90%;
-    margin: auto;
+    margin: 32px auto;
     display: flex;
     flex-direction: column;
     gap: 24px;
-    margin-top: 32px;
 }
 
 section { 
@@ -59,12 +82,60 @@ section ul {
     margin-top: 24px;
 }
 
+section ul li {
+    transition: transform 0.3s ease;
+}
+
+section ul li:hover {
+    transform: scale(1.1);
+}
+
 .manga-list img {
     width: 90px;
     border-radius: 8px;
 }
 
 .channel-list img {
+    border: 1px solid #443E54;
     border-radius: 50%;
     width: 70px;
+}
+
+
+/* ANIMATION */
+
+header div {
+    animation: fromTop 0.7s 0.1s backwards;
+}
+
+main section:nth-child(1) {
+    animation: fromBottom 0.7s 0.1s backwards;
+}
+
+main section:nth-child(2) {
+    animation: fromBottom 0.7s 0.3s backwards;
+}
+
+main section:nth-child(3) {
+    animation: fromBottom 0.7s 0.5s backwards;
+}
+
+@keyframes fromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    } to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(30pc)
+    } to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
