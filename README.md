@@ -3,7 +3,6 @@
 
 Projeto construído do evento Next Level Week da Rocketseat.
 
-
 ![preview](./.github/preview.png)
 
 >[Clique aqui para acessar](https://lordvitor11.github.io/NLW-eSports-Explorer)
