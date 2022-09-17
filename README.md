@@ -9,10 +9,12 @@ Projeto construído do evento Next Level Week da Rocketseat.
 >[Clique aqui para acessar](https://lordvitor11.github.io/NLW-eSports-Explorer)
 ## Tecnologias:
 
-<img title="HTML5" align="center" alt="LV-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-<img title="CSS3" align="center" alt="LV-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-<img title="Git" align="center" alt="LV-GIT" height="30" width="40" src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/git.svg">
-<img title="GitHub" align="center" alt="LV-GITHUB" height="30" width="40" src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/github.svg">
+<div style="display: inline_block">
+    <img title="HTML5" align="center" alt="LV-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+    <img title="CSS3" align="center" alt="LV-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+    <img title="Git" align="center" alt="LV-GIT" height="30" width="40" src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/git.svg">
+    <img title="GitHub" align="center" alt="LV-GITHUB" height="30" width="40" src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/github.svg">
+</div>
 
 </br></br>
 ## Contato:
